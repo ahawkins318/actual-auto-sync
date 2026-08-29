@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@actual-app/api':
-        specifier: ^26.8.1
-        version: 26.8.1
+        specifier: file:./vendor/actual-app-api.tgz
+        version: file:vendor/actual-app-api.tgz
       '@actual-app/crdt':
         specifier: ^3.1.1
         version: 3.1.1
@@ -72,8 +72,9 @@ importers:
 
 packages:
 
-  '@actual-app/api@26.8.1':
-    resolution: {integrity: sha512-FpOjTdbXEUlph1pElNANT/y2TwNn3vGbR/4SRRtic6x2kZIrrKZBCx4+X5/GobVNLPGJX66p6tVcki41nqpPZA==}
+  '@actual-app/api@file:vendor/actual-app-api.tgz':
+    resolution: {integrity: sha512-Upg+F0axunyngl4CpQBMDFPa+IEmmv0x+0egLhwWxb1e0DEm/F2YC1KOQbZPOEber1ziD8awkTv0eenVkIophw==, tarball: file:vendor/actual-app-api.tgz}
+    version: 26.8.1
     engines: {node: '>=20'}
 
   '@actual-app/core@26.8.1':
@@ -1571,7 +1572,7 @@ packages:
 
 snapshots:
 
-  '@actual-app/api@26.8.1':
+  '@actual-app/api@file:vendor/actual-app-api.tgz':
     dependencies:
       '@actual-app/core': 26.8.1
       '@actual-app/crdt': 3.1.1
