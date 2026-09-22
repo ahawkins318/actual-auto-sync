@@ -73,7 +73,7 @@ importers:
 packages:
 
   '@actual-app/api@file:vendor/actual-app-api.tgz':
-    resolution: {integrity: sha512-kcZqMr/jKWMCQ0pTZu29flgsWeQ7de02ysf0pO9Rdtdj0899c9P4j7j8ZGIVKXQeLF3Lqela/J7KTv/zttEqzg==, tarball: file:vendor/actual-app-api.tgz}
+    resolution: {integrity: sha512-AgqYRexrMsWveL3YERni9Bg44ReIdREfOWLSX1e5FekjgebNnjSJB72LCRa7HW9ta+PvaEUOjIBBUVYVBTCcCA==, tarball: file:vendor/actual-app-api.tgz}
     version: 26.9.0
     engines: {node: '>=20'}
 
